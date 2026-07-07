@@ -6,7 +6,7 @@
       Error in `reduce()`:
       ! Must supply `.init` when `.x` is empty.
 
-# accumulate() does fail when simpification is required
+# accumulate() does fail when simplification is required
 
     Code
       accumulate(list(1, "a"), ~.y, .simplify = TRUE)
@@ -29,4 +29,3 @@
     Condition
       Error in `reduce2()`:
       ! Must supply `.init` when `.x` is empty.
-

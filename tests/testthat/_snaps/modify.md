@@ -1,4 +1,4 @@
-# modfiying data.frame preserves type and size
+# modifying data.frame preserves type and size
 
     Code
       modify(df1, ~ integer())
@@ -115,4 +115,3 @@
     Condition
       Error in `modify2()`:
       ! `.x` must be a vector, list, or data frame, not a function.
-

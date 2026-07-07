@@ -3,7 +3,7 @@ test_that(".f called with named arguments", {
   expect_equal(pmap(x, list), list(x))
 })
 
-test_that("... are passed after varying argumetns", {
+test_that("... are passed after varying arguments", {
   out <- pmap(list(x = 1:2), list, n = 1:2)
   expect_equal(
     out,

@@ -1,4 +1,4 @@
-test_that("can transpose homogenous list", {
+test_that("can transpose homogeneous list", {
   x <- list(x = list(a = 1, b = 2), y = list(a = 3, b = 4))
   out <- list_transpose(x)
   expect_equal(out, list(a = c(x = 1, y = 3), b = c(x = 2, y = 4)))

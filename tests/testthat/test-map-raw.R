@@ -1,4 +1,4 @@
-test_that("_raw funtions are deprecated", {
+test_that("_raw functions are deprecated", {
   expect_snapshot({
     . <- map_raw(list(), ~.x)
     . <- map2_raw(list(), list(), ~.x)

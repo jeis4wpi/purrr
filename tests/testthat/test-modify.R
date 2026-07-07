@@ -6,7 +6,7 @@ test_that("modifying vectors list preserves type", {
   expect_equal(modify(x1, ~ .x + 1), x2)
 })
 
-test_that("modfiying data.frame preserves type and size", {
+test_that("modifying data.frame preserves type and size", {
   df1 <- data.frame(x = 1:2, y = 2:1)
   expect_equal(modify(df1, ~1), data.frame(x = c(1, 1), y = c(1, 1)))
   expect_equal(modify_at(df1, 1, ~1), data.frame(x = c(1, 1), y = 2:1))

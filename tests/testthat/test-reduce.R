@@ -146,7 +146,7 @@ test_that("accumulate() does not fail when input can't be simplified", {
   expect_identical(accumulate(list(1, "a"), ~.y), list(1, "a"))
 })
 
-test_that("accumulate() does fail when simpification is required", {
+test_that("accumulate() does fail when simplification is required", {
   expect_snapshot(accumulate(list(1, "a"), ~.y, .simplify = TRUE), error = TRUE)
 })
 

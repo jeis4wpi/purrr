@@ -39,7 +39,7 @@ reference:
     their side-effects; it returns `.x` invisibly.
 
     As well as functions, `.f`, can take numbers and characters (used as a
-    shorthand for `[[`), and formulas (used as a succint function definition).
+    shorthand for `[[`), and formulas (used as a succinct function definition).
     See details in `as_mapper()`
   contents:
   - map

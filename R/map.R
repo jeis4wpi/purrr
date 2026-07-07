@@ -243,7 +243,7 @@ mmap_ <- function(.x, .f, .progress, .type, error_call, ...) {
     list(.stop = TRUE, .progress = .progress)
   } else {
     cli::cli_abort(
-      "Unknown cli progress bar configuation, see manual.",
+      "Unknown cli progress bar configuration, see manual.",
       call = error_call
     )
   }

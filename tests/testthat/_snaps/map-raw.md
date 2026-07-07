@@ -1,4 +1,4 @@
-# _raw funtions are deprecated
+# _raw functions are deprecated
 
     Code
       . <- map_raw(list(), ~.x)
@@ -29,4 +29,3 @@
     Condition
       Warning:
       `flatten_raw()` was deprecated in purrr 1.0.0.
-
